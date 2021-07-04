@@ -39,8 +39,7 @@
     "types": "index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
-        "directory": "types/prosemirror-view"
+        "url": "https://github.com/ght901/types-prosemirror-view.git"
     },
     "scripts": {},
     "dependencies": {

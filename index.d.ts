@@ -611,6 +611,10 @@ export interface EditorProps<ThisT = unknown, S extends Schema = any> {
      * below the cursor when it is scrolled into view. Defaults to 5.
      */
     scrollMargin?: number | { top: number; right: number; bottom: number; left: number } | null;
+    /**
+     * Determines whether text will be pasted as plain text.
+     */
+    plainTextPaste?: boolean
 }
 /**
  * A mapping of dom events.
